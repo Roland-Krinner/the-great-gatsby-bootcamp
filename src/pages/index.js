@@ -7,7 +7,7 @@ const IndexPage = () => {
 	return (
 		<Layout>
 			<Head title="Home"/>
-			<h1>Hello,</h1>
+			<h1>Hello, this is a change!</h1>
 			<h2>I want to lean Gatsby!</h2>
 			<p>
 				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis beatae,
