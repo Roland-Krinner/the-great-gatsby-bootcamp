@@ -1,0 +1,37 @@
+.posts {
+	list-style-type: none;
+	margin: 0;
+}
+
+.post {
+	margin: 1rem 0;
+
+	a {
+		display: block;
+		padding: 1rem;
+		background: #f4f4f4;
+		color: #000;
+		text-decoration: none;
+		&:hover {
+			background: #e4e4e4;
+		}
+
+		h2 {
+			font-size: 1.25rem;
+			small {
+				color: rgb(38, 189, 89);
+			}
+		}
+
+		p, span {
+			color: #777;
+			font-size: 0.8rem;
+			font-style: italic;
+		}
+
+		span {
+			font-style: normal;
+			color: rgb(38, 189, 89);
+		}
+	}
+}
